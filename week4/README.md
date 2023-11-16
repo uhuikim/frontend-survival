@@ -1,4 +1,4 @@
-# 4주차 JSX
+# 4주차 React Hooks
 
 ## 학습 목표
 
