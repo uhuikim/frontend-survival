@@ -5,14 +5,6 @@
 - Describe - Context - It 패턴
 - 단위테스트란
 
-<aside>
-⚠️ TDD 에 대해서 주의할 점
-테스트 코드를 작성한다고 해서 TDD 가 아닙니다.
-TDD Cycle 에 따라 테스트 코드를 먼저 작성하고, 구현하고, 리팩터링 하는 과정을 엄격하게 지켜서 개발을 진행해야 TDD 라고 할 수 있습니다.
-TDD 는 테스트 코드를 작성하는 것과 별개로 따로 연습이 필요하고 습관을 들여야하는 분야 입니다. 그리고 TDD 를 잘 하기 위해서는 테스트 코드 작성법 자체부터 공부를 하셔야 합니다.
-당장은 TDD 보다 테스트 코드 작성에 익숙해지고 어떻게 하면 테스트 코드를 잘 작성할 수 있을까에 초점을 맞춰 공부하시면 좋습니다.
-
-</aside>
 
 ## TDD (Test Driven Development)
 
@@ -179,11 +171,11 @@ module.exports = {
 
 **Truthiness**
 
-- `toBeNull` matches only `null`
-- `toBeUndefined` matches only `undefined`
-- `toBeDefined` is the opposite of `toBeUndefined`
-- `toBeTruthy` matches anything that an `if` statement treats as true
-- `toBeFalsy` matches anything that an `if` statement treats as false
+- toBeNull
+- toBeUndefined
+- toBeDefined
+- toBeTruthy
+- toBeFalsy
 
 **Numbers**
 
