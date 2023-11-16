@@ -29,6 +29,6 @@
 
 - [5주차](./week5/README.md)
   - [1. TDD](./week5/tdd.md)
-  - [2. React Testing Library](./week45/react-testing-library.md)
+  - [2. React Testing Library](./week5/react-testing-library.md)
   - [3. MSW](./week5/msw.md)
   - [4. Playwright](./week5/playwright.md)
