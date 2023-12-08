@@ -87,7 +87,7 @@ export default function Greeting() {
 ```tsx
 import styled from 'styled-components';
 
-function HelloWorld({ **className** }: React.**HTMLAttributes**<HTMLElement>) {
+function HelloWorld({ className }: React.HTMLAttributes<HTMLElement>) {
 	return (
 		<p className={className}>
 			Hello, world!

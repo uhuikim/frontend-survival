@@ -19,9 +19,9 @@ type ParagraphProps = {
 	active?: boolean;
 }
 
-const Paragraph = styled.p**<ParagraphProps>**`
-	color: ${(**props**) => (props.active ? '#F00' : '#888')};
-	${(**props**) => props.active && **css**`
+const Paragraph = styled.p<ParagraphProps>`
+	color: ${(props) => (props.active ? '#F00' : '#888')};
+	${(props) => props.active && css`
 		font-weight: bold;
 	`}
 `;
@@ -59,7 +59,7 @@ export default function Greeting() {
 ```tsx
 import styled from 'styled-components';
 
-const Button = styled.button.**attrs**({
+const Button = styled.button.attrs({
 	type: 'button',
 })`
 	border: 1px solid #888;
